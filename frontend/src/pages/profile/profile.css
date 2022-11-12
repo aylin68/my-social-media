@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+}
+.profileContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+.profileRightside {
+  position: relative;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+
+.profileImgContainer {
+  position: relative;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coverImg {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.coverImg img {
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.thumbnailCoverImg {
+  position: absolute;
+  z-index: 4;
+  background-color: #000;
+  opacity: 0.333;
+  bottom: 0px;
+  height: 0px;
+  transition: height linear;
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+}
+
+.thumbnailCoverImg span {
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  padding-right: 20px;
+}
+
+.coverImg:hover .thumbnailCoverImg {
+  height: 30px;
+}
+
+.avatarImg {
+  position: relative;
+  z-index: 8;
+  height: 150px;
+  width: 150px;
+  margin-top: -80px;
+  margin-bottom: 16px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatarImg img {
+  position: relative;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.thumbnailAvatarImg {
+  position: relative;
+  z-index: 9;
+  background-color: #000;
+  opacity: 0.333;
+  bottom: 0px;
+  text-align: center;
+  height: 30px;
+  transition: height 8s linear 2s;
+  cursor: pointer;
+}
+
+.avatarImg:hover .thumbnailAvatarImg {
+  bottom:32px
+}
+
+.avatarImg span {
+  color: #fff;
+  font-size: 13px;
+}
+
+.fullname {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.profileRightsideContainer {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.userInformation {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+.userInformation ul {
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+.userInformationList {
+  list-style: none;
+  color: #666565;
+  line-height: 23px;
+}
+
+.userInformationList span {
+  padding-left: 9px;
+  color: #a5a2a2;
+}
+
+.feedBox {
+  display: flex;
+  width: 60%;
+}
+
+.userInformationFriends {
+  margin-top: 30px;
+}
+
+.userInformationTitle {
+  font-size: 19px;
+}
+
+.buttonConainer {
+  margin-bottom: 21px;
+}
+
+.followBtn {
+  margin-left: 10px !important;
+}
+
+.shareImgContainer {
+  position: relative;
+  width: 100%;
+  margin-top: 13px;
+}
+
+.shareImgContainer img {
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.changeButton {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  color: white;
+  padding: 0px 16px;
+  height: 36px;
+  cursor: pointer;
+  margin: 15px 0px 8px 0px;
+}
+
+.changeAvatorItem {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  color: #666;
+  margin-right: 10px;
+  cursor: pointer;
+}
