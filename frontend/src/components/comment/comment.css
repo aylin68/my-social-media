@@ -1,0 +1,16 @@
+.containerComment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.formComment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.addCommend {
+  height: 37px;
+}
