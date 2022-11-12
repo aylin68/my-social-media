@@ -6,7 +6,7 @@ import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import Register from "./pages/register/Register";
 import { AuthContext } from "./context/AuthContext";
-import { ProtectedRoute } from "./ProtectedRoute.js";
+import { ProtectedRoute } from "./components/ProtectedRoute.js";
 
 function App() {
   const { dispatch } = useContext(AuthContext);
