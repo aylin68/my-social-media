@@ -1,0 +1,34 @@
+.homeContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.leftbar {
+  flex: 3;
+  width: 25%;
+  padding: 10px 5px 10px 8px;
+  border-right: 2px solid rgb(154 149 149 / 20%);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  height: 100vh;
+}
+
+.feed {
+  flex: 6;
+  width: 40%;
+}
+
+.rightbar {
+  position: -webkit-sticky;
+  position: sticky;
+  flex: 3;
+  width: 25%;
+  padding: 10px 5px 10px 8px;
+  height: 100vh;
+}
