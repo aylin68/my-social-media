@@ -1,0 +1,59 @@
+.leftbarList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftbarItems {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+.leftbarTitle {
+  color: rgb(69, 68, 68);
+  margin-left: 6px;
+}
+
+.leftbarUser {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 13px;
+  margin-top: 18px;
+}
+.leftbarUser li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+  cursor: pointer;
+}
+
+.leftbarUserImg {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.leftbarUserFullname {
+  padding-left: 9px;
+  font-size: 13px;
+}
+
+.leftbarTop {
+  border-bottom: 1px solid #ccc;
+  margin: 0px 10px 24px 10px;
+}
+
+.leftbarTitle {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #464444;
+}
