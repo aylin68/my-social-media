@@ -1,0 +1,41 @@
+.listFriends {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 13px;
+  margin-top: 18px;
+}
+
+.listFriends li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+  cursor: pointer;
+}
+
+.friendImg {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.frienFullname {
+  padding-left: 9px;
+  font-size: 13px;
+}
+
+.baner {
+  object-fit: cover;
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.rightbarTitle {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #464444;
+}
