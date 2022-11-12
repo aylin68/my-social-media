@@ -1,0 +1,89 @@
+a {
+  text-decoration: none;
+}
+
+.loginContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #d9d4d4;
+  height: 100vh;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.containerLeft{
+  margin-right: 33px;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+.containerLeft p {
+  color: #3b3a3a;
+}
+
+.containerLeft h1 {
+  color: rgba(54, 108, 245, 0.967);
+  line-height: 64px;
+}
+
+.containerRight {
+  display: flex;
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.loginButton {
+  width: 100%;
+  margin-top: 17px !important;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.forgotPassword {
+  display: flex;
+  color: rgba(54, 108, 245, 0.967);
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.createAccountBox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.errorMessage {
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .loginContainer {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .loginContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerLeft{
+    width: 300px;
+    text-align: center;
+  }
+}
