@@ -1,0 +1,107 @@
+.feedContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 15px 8px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.feedImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedHeader {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #c1bcbc;
+  padding-bottom: 10px;
+}
+
+.feadText {
+  font-size: 14px;
+  color: #4d4949;
+  margin-left: 5px;
+  padding-left: 5px;
+  width: 90%;
+  border: none;
+}
+
+.feadText:focus-visible {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.feedFooter {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedItems {
+  width: 96%;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  margin: 15px 2px;
+
+}
+
+.feedItem {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.feedPhotoIcon , .feedTagIcon, .feedLocationIcon, .feedFeelingIcon{
+  font-size: 18px !important;
+  color: red;
+}
+
+.feedTagIcon {
+  color: blue;
+}
+
+.feedLocationIcon {
+  color: green;
+}
+
+.feedFeelingIcon {
+  color: yellow;
+}
+
+.shareButton {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  color: white;
+  padding: 0px 16px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.shareImgContainer {
+  position: relative;
+  width: 100%;
+  max-height: 450px;
+  overflow: hidden;
+
+}
+.shareImgContainer img {
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+.feadText:focus::placeholder {
+  color: transparent;
+}
