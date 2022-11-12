@@ -1,0 +1,98 @@
+.topbarContainer {
+  display: flex;
+  position: fixed;
+  box-sizing: border-box;
+  height: 50px;
+  background-color: rgba(54, 108, 245, 0.967);
+  width: 100%;
+  color: #fff;
+  justify-content: space-between;
+  box-sizing: border-box;
+  z-index: 999;
+}
+.topbarLeft {
+  flex: 3;
+}
+
+.topbarCenter {
+  flex: 3;
+}
+.topbarRight {
+  flex: 6;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+
+.topbarLogo {
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+.topbarSearch {
+  height: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.topbarLinks, .topbarIcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbarLink {
+  padding-right: 10px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.topbarIconItem {
+  display: flex;
+  position: relative;
+  padding-right: 10px;
+  cursor: pointer;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+}
+
+.topbarImg {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.topbarIconBadge {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  top: 11px;
+  right: 5px;
+  font-size: 10px;
+  position: absolute;
+  text-align: center;
+  line-height: 15px;
+}
+
+.logo{
+  text-decoration: none;
+    color: #fff;
+}
+
+.userIdentify {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.userIdentify span {
+  color: white;
+}
